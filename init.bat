@@ -24,6 +24,7 @@ endlocal
 exit /b
 
 :process_file
+@echo off
 setlocal disabledelayedexpansion
 set "input_file=%~1"
 set "output_file=%~2"
